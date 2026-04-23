@@ -5,8 +5,6 @@
   "outputDirectory": "public",
   "framework": null,
   "rewrites": [
-    { "source": "/api", "destination": "/api/index.mjs" },
-    { "source": "/api/(.*)", "destination": "/api/index.mjs" }
   ],
   "functions": {
     "api/index.mjs": {
